@@ -1,0 +1,13 @@
+module StripeAPI.Types.InlineQueryResultVideo where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data InlineQueryResultVideo
+instance Show InlineQueryResultVideo
+instance Eq InlineQueryResultVideo
+instance FromJSON InlineQueryResultVideo
+instance ToJSON InlineQueryResultVideo
+data InlineQueryResultVideoMimeType'
+instance Show InlineQueryResultVideoMimeType'
+instance Eq InlineQueryResultVideoMimeType'
+instance FromJSON InlineQueryResultVideoMimeType'
+instance ToJSON InlineQueryResultVideoMimeType'

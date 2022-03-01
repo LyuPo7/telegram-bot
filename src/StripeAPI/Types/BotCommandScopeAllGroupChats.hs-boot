@@ -1,0 +1,8 @@
+module StripeAPI.Types.BotCommandScopeAllGroupChats where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data BotCommandScopeAllGroupChats
+instance Show BotCommandScopeAllGroupChats
+instance Eq BotCommandScopeAllGroupChats
+instance FromJSON BotCommandScopeAllGroupChats
+instance ToJSON BotCommandScopeAllGroupChats

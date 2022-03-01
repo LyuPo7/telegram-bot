@@ -1,0 +1,8 @@
+module StripeAPI.Types.ChatMemberAdministrator where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data ChatMemberAdministrator
+instance Show ChatMemberAdministrator
+instance Eq ChatMemberAdministrator
+instance FromJSON ChatMemberAdministrator
+instance ToJSON ChatMemberAdministrator

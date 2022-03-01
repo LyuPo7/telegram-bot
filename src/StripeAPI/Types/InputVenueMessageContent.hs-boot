@@ -1,0 +1,8 @@
+module StripeAPI.Types.InputVenueMessageContent where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data InputVenueMessageContent
+instance Show InputVenueMessageContent
+instance Eq InputVenueMessageContent
+instance FromJSON InputVenueMessageContent
+instance ToJSON InputVenueMessageContent

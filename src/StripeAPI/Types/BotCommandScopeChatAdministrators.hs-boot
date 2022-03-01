@@ -1,0 +1,13 @@
+module StripeAPI.Types.BotCommandScopeChatAdministrators where
+import Data.Aeson
+import qualified Data.Aeson as Data.Aeson.Types.Internal
+data BotCommandScopeChatAdministrators
+instance Show BotCommandScopeChatAdministrators
+instance Eq BotCommandScopeChatAdministrators
+instance FromJSON BotCommandScopeChatAdministrators
+instance ToJSON BotCommandScopeChatAdministrators
+data BotCommandScopeChatAdministratorsChatId'Variants
+instance Show BotCommandScopeChatAdministratorsChatId'Variants
+instance Eq BotCommandScopeChatAdministratorsChatId'Variants
+instance FromJSON BotCommandScopeChatAdministratorsChatId'Variants
+instance ToJSON BotCommandScopeChatAdministratorsChatId'Variants
